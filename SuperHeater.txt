@@ -1,0 +1,40 @@
+While doing nothing	
+	1. Check if wearing a fire staff
+		if wearing
+			move on to step 2.
+		else
+			print Not wearing firstaff 
+	2. check if nature in backpack.
+		if nature in backpack
+			move on to step 3.
+		else
+			print Nature rune needed
+	3. check if superheat bind in action bar
+		if superheat is binded
+			move on to excution
+		else
+			print superheat not bind
+Excution
+	1. Open Bank interface
+	2. Check if have coalbag
+		if have coalbag in bank
+			move to step 2.
+		else
+			withdraw runite ore-x
+				input 3
+			move on to step 5.
+	2. withdraw coal-all
+	3. fill coalbag
+	4. withdraw runiteore-5
+	5. withdraw coal-all
+	6. close bank interface
+	7. click superheat in actionbar
+	8. click the last runite ore
+	9. check if runite ore in backpack
+		if there are
+			repeat 7. through 9.
+		else
+			repeat step 1. though 9
+			else
+				print out of materials
+				stop script
