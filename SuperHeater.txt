@@ -3,17 +3,20 @@ While doing nothing
 		if wearing
 			move on to step 2.
 		else
-			print Not wearing firstaff 
+			print Not wearing firstaff
+			stop script
 	2. check if nature in backpack.
 		if nature in backpack
 			move on to step 3.
 		else
 			print Nature rune needed
+			stop script
 	3. check if superheat bind in action bar
 		if superheat is binded
 			move on to excution
 		else
 			print superheat not bind
+			stop script
 Excution
 	1. Open Bank interface
 	2. Check if have coalbag
